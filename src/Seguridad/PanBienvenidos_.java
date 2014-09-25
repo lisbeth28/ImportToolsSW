@@ -10,7 +10,7 @@ import Otras_Clases.Mensajes;
 import java.awt.BorderLayout;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
-import panFondos.PnlFondoInicio;
+import panFondos.PnlFondoInicio;import
 
 /**
  *
@@ -162,7 +162,7 @@ public final class PanBienvenidos_ extends javax.swing.JFrame {
       barra.setValue( min );
       barra.setMinimum( min );
       barra.setMaximum( max );
-      for (int i=min; i<= max; i++ ) {
+      for (int i=min; %%%%%%%<= max; i++ ) {
       barra.setValue( i );
       num=i;
       if(i==max){
