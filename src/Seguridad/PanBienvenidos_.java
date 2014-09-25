@@ -162,7 +162,7 @@ public final class PanBienvenidos_ extends javax.swing.JFrame {
       barra.setValue( min );
       barra.setMinimum( min );
       barra.setMaximum( max );
-      for (int i=min; i <= max; i++ ) {
+      for (int i=min; ### <= max; i++ ) {
       barra.setValue( i );
       num=i;
       if(i==max){
