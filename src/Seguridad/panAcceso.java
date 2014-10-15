@@ -45,18 +45,7 @@ public class panAcceso extends javax.swing.JFrame {
         btnEntrar = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("IMPORT TOOLS WAREHOUSE AND TRADING SYSTEM");
-        addWindowListener(new java.awt.event.WindowAdapter() {
-            public void windowClosing(java.awt.event.WindowEvent evt) {
-                formWindowClosing(evt);
-            }
-            public void windowClosed(java.awt.event.WindowEvent evt) {
-                formWindowClosed(evt);
-            }
-            public void windowOpened(java.awt.event.WindowEvent evt) {
-                formWindowOpened(evt);
-            }
-        });
+       );
 
         jLabel2.setFont(new java.awt.Font("Nyala", 0, 18)); // NOI18N
         jLabel2.setText("CONTRASEÑA   :");
