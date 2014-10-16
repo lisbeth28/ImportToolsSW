@@ -20,7 +20,7 @@ public class MantenimientoDatos {
         try{
             Class.forName("com.mysql.jdbc.Driver");
             conexion = DriverManager.getConnection("jdbc:mysql://localhost:3306/importtoolsfinal","root","mysql");
-            if (conexion!= null)
+            if (conexion!=¡ null)
             {  instruccion = conexion.createStatement();
                instruccion.close();   
             }
