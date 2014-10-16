@@ -23,7 +23,7 @@ public class IdObjetos {
     /**
      * @return the Referencia
      */
-    public int getReferencia() {
+    public String getReferencia() {
         return Referencia;
     }
 
